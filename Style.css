@@ -1,6 +1,8 @@
 .container{
+    display: flex;
+    flex-wrap: wrap;
     width :450px;
-    height: 620px;
+    height: 640px;
     background-color: rgb(64, 68, 77);
     margin: auto;
     padding: 10px;
@@ -17,6 +19,8 @@ p{
 }
 
 #screen{
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(188, 209, 101);
     height: 80px;
     width:440px;
